@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bentham&display=swap" rel="stylesheet">
+
+    <title>CV Juliana González Rodríguez</title>
+
+    <style>
+
+        body{
+
+            /*margenes*/
+            margin: 0;
+            /*espaciado*/
+            padding: 0;
+            /*color pantalla etiueta cuerpo*/
+            background: #e7e9db;
+
+        }
+        .name{
+
+            /*ancho*/
+            width: 100%;
+            /*largo*/
+            height: 300px;
+            /*color de fondo*/ 
+            background: #1D3354;
+            /*diagonal*/
+            transform: skewY(-5deg);
+            
+        }
+
+        .name .content{
+
+            width: 50%;
+            height: 50%;
+            /*marcador de posicion*/
+            position: absolute;
+            /*direccion para mover el estilo seleccionado*/
+            left: 25%;
+
+
+        }
+        .name .content .p-1{
+
+            color:#FFFFF3;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 45px;
+            transform: skewY(5deg);
+            margin-bottom: 0;
+
+        }
+
+        .name .content .p-2{
+
+            color: #FFFFF3;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+            transform: skewY(5deg);
+            margin-top: 0;
+            margin-bottom: 0;
+
+        }
+
+        .name .img{
+
+            position: absolute;
+            top: 18%;
+            right: 5%;
+            width: 180px;
+            height: 180px;
+            border-radius: 100%;
+            transform: skewY(5deg);
+            /*redireccionar imagen*/
+            overflow: hidden;
+
+        }
+
+        .name .img img {
+
+            width: 100%;
+            height:100%;
+            object-fit: cover;
+            display: block;
+
+        }
+
+        .info{
+
+            width: 90%;
+            height: auto;
+            background: #c4cbd8;
+            /*espacio evitar cruce div anterior*/
+            margin: 5% auto;
+            /*margenes*/
+            padding: 20px;
+            border-radius: 20px;
+
+        }
+
+        .info .tituloseccion{
+
+            color: #030111;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: xx-large;
+            text-align: center;
+            font-weight: bolder;
+            /*linea bajo titulo dashed es punteado*/
+            border-bottom: grey dashed;
+
+        }
+
+        .info .titulonombre{
+
+            color: #030111;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+            font-size: large;
+            display: inline;
+            margin-right: 20px;
+
+
+        }
+
+        .info .infonombre{
+
+            color: #030111;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: normal;
+            font-size: large;
+            display: inline;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--creacion de la division-->
+    <!--clase acerca de perfil laboral en la division-->
+    <div class="name">
+
+        <div class="img">
+
+            <img src="gatomiau.jpg" alt="">
+    
+        </div>
+
+        <div class="content"> 
+            <p class="p-1"> Juliana González Rodríguez</p>
+            <p class="p-2">15 años, estudiante</p>
+        </div>
+
+    </div>
+
+    <!--division informacion-->
+    
+
+    <div class="info">
+        <p class="tituloseccion">Información Personal</p>
+        <p class="titulonombre">Nombres y apellidos:</p>
+        <p class="infonombre">Juliana González Rodríguez</p><br>
+        <p class="titulonombre">Telefono:</p>
+        <p class="infonombre">(+57)3052940565</p><br>
+        <p class="titulonombre">Email:</p>
+        <p class="infonombre">julianagr200906@gmail.com</p><br>
+
+     </div>
+
+    <div class="info">
+        <p class="tituloseccion">Perfil profesional</p>
+        <p class="infonombre">Estudiante de noveno grado de bachillerato y actualmente cursando el tercer semestre del programa Técnico Profesional en Programación de Sistemas de Información. </p><br> 
+        <p class="infonombre">Apasionada por la tecnología, con un fuerte interés en automatización, manejo de datos y ciberseguridad. Con experiencia práctica en el desarrollo de proyectos académicos, explorando herramientas como Python, Oracle, HTML, SQL y Linux.</p><br>
+        <p class="infonombre">Maneja también modelado e impresión 3D, ofimática y conceptos básicos de electrónica. </p> <br> 
+        <p class="infonombre">Destaca por su enfoque detallista y perfeccionista en cada tarea, con gran capacidad para el aprendizaje autónomo, manejo del inglés y resolución lógica de problemas. Aspira a crecer profesionalmente en  áreas relacionadas con tecnología, innovación y sistemas, con el objetivo de alcanzar un rol de alto impacto en el sector tecnológico.</p>
+
+    </div>
+
+     <div class="info">
+        <p class="tituloseccion">Educación e información</p>
+        <p class="titulonombre">Básica Primaria:</p>
+        <p class="infonombre">Colegio Nuestra Señora del Rosario Funza (2016-2020)</p><br>
+        <p class="titulonombre">Básica Secundaria:</p>
+        <p class="infonombre">Colegio Nuestra Señora del Rosario Funza (2021-2022)</p><br>
+        <p class="infonombre">Instituto Salesiano San Jose Mosquera (2023-2025)</p><br>
+        <p class="titulonombre">Educación superior:</p>
+        <p class="infonombre">Corporación Tecnológica Industrial Colombiana (TEINCO) -En curso </p><br>
+        <p class="infonombre">Servicio Nacional de Aprendizaje (SENA) </p><br>
+
+     </div>
+
+     <div class="info">
+        <p class="tituloseccion">Cursos y certificaciones </p>
+        <li>
+            <p class="infonombre">Informatica Aplicada - TEINCO (2025)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">electrónica: magnitudes, leyes y aplicaciones - SENA (2025)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">Herramientas del oficio: Linux y SQL - Coursera (2025)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">Conexión y protección: Redes y seguridad de redes - Coursera (2024)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">Ve a lo seguro: Gestiona los riegos de seguridad - Coursera (2024)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">Fundamentos de la ciberseguridad - Coursera (2024)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">Cómo resolver problemas y tomar decisiones con eficacia - Coursera (2024)</p><br>
+        </li>
+    
+     </div>
+
+     <div class="info">
+        <p class="tituloseccion">Experiencia laboral</p>
+        <p class="titulonombre">Nombre de la empresa:</p>
+        <p class="infonombre"> </p><br>
+        <p class="titulonombre">Funciones:</p>
+        <p class="infonombre"> </p><br>
+        <p class="titulonombre">Año de labor:</p>
+        <p class="infonombre"> </p><br>
+        <!--Experiencia laboral 2 -->
+        <p class="titulonombre">Nombre de la empresa:</p>
+        <p class="infonombre"> </p><br>
+        <p class="titulonombre">Funciones:</p>
+        <p class="infonombre"> </p><br>
+        <p class="titulonombre">Año de labor:</p>
+        <p class="infonombre"> </p><br>
+
+     </div>
+</body>
+</html>
+
